@@ -9,6 +9,35 @@
   </head>
   <body class="p-20">
     <!-- https://tailwindcss.com/docs/position -->
+    <h1 class="mb-3">1. Position</h1>
+    <div class="relative h-40 bg-green-200 w-1/2">
+      <p>Relative</p>
+      <div class="absolute bottom-0 right-0 bg-teal-400">
+        <p>Absolute</p>
+      </div>
+      <div class="absolute top-10 left-0 bg-teal-400">
+        <p>Absolute</p>
+      </div> 
+    </div>
+    <br>
     <!-- https://tailwindcss.com/docs/display -->
+    <h1 class="mb-3">2. Display</h1>
+    <div class="bg-indigo-100 p-10 mb-10 w-[600px]">
+      <span class="inline bg-orange-200 w-[100px]">
+        1. this is display inline and will wrap normally
+      </span>
+      <span class="inline-block bg-pink-200">
+        2. this is display inline-block and will not expand beyond its parent
+      </span>
+      <span class="inline-block bg-green-200 w-[100px]">
+        3. this is display inline-block and will not expand beyond its parent. Since its width is set, it will not wrap
+      </span>
+      <span class="block bg-blue-200">
+        4. this is display block and will expand to fill its parent and will move to its next link
+      </span>
+      <span class="hidden bg-red-200">
+        5. this is display hidden and will not be visible
+      </span>
+    </div>
   </body>
 </html>
