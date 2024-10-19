@@ -10,12 +10,46 @@
   <body>
     <!-- Background Images -->
     <!-- https://tailwindcss.com/docs/background-image -->
+    <div class="h-screen w-full bg-blue-500 bg-cover bg-no-repeat bg-center" 
+    style="background-image: url('https://images.unsplash.com/photo-1728931710370-a8025325b6f2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+      <h1 class="pt-10 pl-10 text-white text-2xl font-mono font-thin">This is a background image</h1>
+    </div>
+    <br>
 
     <!-- Shadows -->
     <!-- https://tailwindcss.com/docs/drop-shadow -->
     <!-- I know we didn't cover flexbox, but it's just for demo purposes -->
+    <div class="flex flex-wrap">
+      <div class="mt-10 ml-4 p-3 w-[400px] shadow-md">
+        Shadow Medium
+      </div>
+      <div class="mt-10 ml-4 p-3 w-[400px] shadow-lg">
+        Shadow Large
+      </div>
+      <div class="mt-10 ml-4 p-3 w-[400px] shadow-xl">
+        Shadow Extra Large
+      </div>
+      <div class="mt-10 ml-4 p-3 w-[400px] shadow-2xl">
+        Shadow 2x Extra Large
+      </div>
+      <div class="mt-10 ml-4 p-3 w-[400px] shadow-inner">
+        Shadow Inner
+      </div>
+
+      <!-- Colors shadow -->
+      <div class="mt-10 ml-4 p-3 shadow-lg shadow-yellow-200 w-[400px]">
+        Shadow Yellow 200
+      </div>
+    </div>
+    <br>
 
     <!-- Gradients -->
     <!-- https://tailwindcss.com/docs/gradient-color-stops -->
+    <div class="h-40 bg-gradient-to-r from-teal-100 to-green-500 m-10 text-center p-40">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum exercitationem inventore sint ducimus nam fugiat esse molestias dolorum. Perferendis voluptatibus doloremque eos cumque eius voluptatum neque esse possimus vero minus.
+    </div>
+    <div class="h-40 bg-gradient-to-r from-indigo-500 via-purple-500 to-red-500 m-10 text-center p-40">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, ullam sit dignissimos nam sed quia alias omnis perferendis minus veniam officia, velit non nesciunt laboriosam eum, reiciendis doloremque sapiente quo?
+    </div>
   </body>
 </html>
