@@ -10,10 +10,43 @@
   <body>
     <!-- Border Width & Colors -->
     <!-- https://tailwindcss.com/docs/border-width -->
+    <div class="border-2 border-green-100 m-10">
+      <div class="w-96 m-3 p-5 border">Border All Around</div> 
+      <div class="w-96 m-3 p-5 border-4">Border Width</div> 
+      <div class="w-96 m-3 p-5 border-4 border-red-500">Colored Border</div>
+      <div class="w-96 m-3 p-5 border-x-4 border-red-500">Border applied to X-axis</div>
+      <div class="w-96 m-3 p-5 border-y-4 border-red-500">Border applied to Y-axis</div> 
+    </div>
+    <br>
 
     <!-- Border Radius -->
     <!-- https://tailwindcss.com/docs/border-radius -->
-
+    <div class="flex flex-wrap">
+      <div class="border-4 rounded bg-teal-100 w-96 p-5 m-5">
+        idk
+      </div>
+      <div class="rounded-md bg-teal-200 w-96 p-5 m-5">
+        idk
+      </div>
+      <div class="rounded-lg bg-teal-300 w-96 p-5 m-5">
+        idk
+      </div>
+      <div class="rounded-full bg-teal-400 w-96 p-5 m-5">
+        idk
+      </div>
+    </div>
     <!-- Specific Sides -->
+    <div class="rounded-t-full bg-teal-400 w-96 p-5 m-5">
+      Top rounded
+    </div>
+    <div class="rounded-r-full bg-teal-400 w-96 p-5 m-5">
+      Right rounded
+    </div>
+    <div class="rounded-l-full bg-teal-400 w-96 p-5 m-5">
+      Left rounded
+    </div> 
+    <div class="rounded-b-full bg-teal-400 w-96 p-5 m-5">
+      Bottom rounded
+    </div>
   </body>
 </html>
